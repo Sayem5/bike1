@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(27,27,27);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width: 220px;
+    margin: 10px;
+    border-radius:15px;
+}
+.card-image{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.bike-1{
+    background-image: url(https://imgs.search.brave.com/Pvm9jzS8LJ88kUtLWlpYCdk4U5DgEY032E7GLoIE7pM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jNC53/YWxscGFwZXJmbGFy/ZS5jb20vd2FsbHBh/cGVyLzI5NS8yNjQv/NDcva3RtLWJpa2Vz/LXJhY2luZy1oZC13/YWxscGFwZXItcHJl/dmlldy5qcGc);
+}
+.bike-2{
+    background-image: url(https://imgs.search.brave.com/TlM_eIG3UhRaYMu1mHbvUxmQqOL7PiNGzbET8kYKipc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDI0OTkx/MjUuanBn);
+}
+.bike-3{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/937/901/238/2016-edition-kawasaki-krt-wallpaper-preview.jpg);
+}
+.card h2{
+    padding: 10px;
+}
+.card p{
+    padding: 10px;
+}
+.card a{
+background-color: black;
+color: white;
+padding: 10px ;
+display: block;
+text-align: center;
+margin: 20px 50px;
+text-decoration: none;
+}
+.card:hover{
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
